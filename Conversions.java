@@ -55,5 +55,21 @@ public class Conversions
             double feet = meters * 3.28084;
             System.out.println(meters + " # of meters is " + feet + " # of feet ");
         }
+        if (selection == 5)
+        {
+            System.out.println("Enter Ounces: ");
+            double ounces = keyboard.nextDouble();
+            keyboard.nextLine();
+            double milliliters = ounces * 29.5735;
+            System.out.println(ounces + " # of ounces is " + milliliters + " # of milliliters ");
+        }
+        if (selection == 6)
+        {
+            System.out.println("Enter Milliliters: ");
+            double milliliters = keyboard.nextDouble();
+            keyboard.nextLine();
+            double ounces = milliliters / 29.5735;
+            System.out.println(milliliters + " # of milliliters is " + ounces + " # of ounces ");
+        }
     }
 }
