@@ -71,5 +71,37 @@ public class Conversions
             double ounces = milliliters / 29.5735;
             System.out.println(milliliters + " # of milliliters is " + ounces + " # of ounces ");
         }
+         if (selection == 7)
+        {
+            System.out.println("Enter Inches: ");
+            double inches = keyboard.nextDouble();
+            keyboard.nextLine();
+            double yards = inches * 3;
+            System.out.println(inches + " # of inches is " + yards + " # of yards ");
+        }
+         if (selection == 8)
+        {
+            System.out.println("Enter Yards: ");
+            double yards = keyboard.nextDouble();
+            keyboard.nextLine();
+            double inches = yards / 3;
+            System.out.println(yards + " # of yards is " + inches + " # of inches ");
+        }
+         if (selection == 9)
+        {
+            System.out.println("Enter Miles: ");
+            double miles = keyboard.nextDouble();
+            keyboard.nextLine();
+            double feet = miles * 5280;
+            System.out.println(miles + " # of miles is " + feet + " # of feet ");
+        }
+         if (selection == 10)
+        {
+            System.out.println("Enter Feet: ");
+            double feet = keyboard.nextDouble();
+            keyboard.nextLine();
+            double miles = feet / 5280;
+            System.out.println(feet + " # of feet is " + miles + " # of miles ");
+        }
     }
 }
